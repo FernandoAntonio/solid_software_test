@@ -23,6 +23,7 @@ class _HomePageState extends State<HomePage> {
 
   Color _getContrastingColor() {
     final brightness = ThemeData.estimateBrightnessForColor(_backgroundColor);
+
     return brightness == Brightness.light ? Colors.black : Colors.white;
   }
 
